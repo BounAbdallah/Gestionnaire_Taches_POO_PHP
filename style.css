@@ -1,0 +1,66 @@
+/* Custom styles for this template */
+body {
+    background: #0f0c29; /* Couleur de fond avec dégradé */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #dc3545; /* Couleur rouge pour la navbar */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff; /* Texte blanc pour les liens de la navbar */
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    background-color: #FFEFBA; /* Couleur de fond pour la sidebar */
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.card-header {
+    background-color: #dc3545; /* Couleur rouge pour les en-têtes de carte */
+    color: #fff; /* Texte blanc */
+}
+
+.col-md-6 {
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 400px;
+    margin-top: 100px;
+}
+
+.form-control {
+    background-color: #FFEFBA; /* Couleur de fond pour les champs de saisie */
+    color: #dc3545; /* Couleur du texte */
+}
+
+.btn-primary {
+    background-color: #dc3545; /* Couleur rouge pour le bouton */
+    border-color: #dc3545;
+    color: #fff; /* Texte blanc */
+}
+
+.btn-primary:hover {
+    background-color: #c82333; /* Couleur rouge plus foncée au survol */
+    border-color: #bd2130;
+}
